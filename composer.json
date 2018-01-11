@@ -1,0 +1,36 @@
+{
+    "name": "get-stream/stream-zend",
+    "homepage": "https://getstream.io/",
+    "description": "Build newsfeeds and activity feeds with Zend framework using getstream.io",
+    "keywords": ["stream", "feed", "feedly", "getstream", "activity", "newsfeed", "activity feed", "notification feed", "aggregated feed", "zend", "zf3"],
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Hannes Van De Vreken",
+            "email": "hannes@getstream.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GetStream\\Zend\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GetStream\\Zend\\Unit\\": "tests/unit"
+        }
+    },
+    "require": {
+        "get-stream/stream": "^2.5.1",
+        "zendframework/zend-modulemanager": "^2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "config": {
+        "zf": {
+            "component": "GetStream\\Stream\\"
+        }
+    },
+    "minimum-stability": "stable"
+}
