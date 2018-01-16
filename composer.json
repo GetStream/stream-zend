@@ -1,7 +1,7 @@
 {
     "name": "get-stream/stream-zend",
     "homepage": "https://getstream.io/",
-    "description": "Build newsfeeds and activity feeds with Zend framework using getstream.io",
+    "description": "Build newsfeeds and activity feeds with Zend Framework using getstream.io",
     "keywords": ["stream", "feed", "feedly", "getstream", "activity", "newsfeed", "activity feed", "notification feed", "aggregated feed", "zend", "zf3"],
     "license": "BSD",
     "authors": [
@@ -29,7 +29,7 @@
     },
     "config": {
         "zf": {
-            "component": "GetStream\\Stream\\"
+            "component": "GetStream\\Stream"
         }
     },
     "minimum-stability": "stable"
